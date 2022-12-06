@@ -1,0 +1,36 @@
+id,name,category,price
+1,Indomie Mie Instan Goreng,food,3100
+2,Indomie Mie Instan Ayam Bayang,food,3100
+3,Indomie Mie Instan Rendang,food,3100
+4,Indomie Mie Instan Goreng Rica,food,3100
+5,Indomie Mie Instan Goreng Aceh,food,3100
+6,Indomie Mie Instan Kaldu Ayam,food,3100
+7,Indomie Mie Instan Soto Mie,food,3100
+8,Indomie Mie Instan Kari Ayam,food,3100
+9,Chitato Snack Potato Chips Truffle,food,11100
+10,Chitato Snack Potato Chips Mi Goreng,food,11500
+11,Chitato Snack Potato Chips Sourcream Onion,food,11600
+12,Chitato Snack Potato Chips Nori Seaweed,food,11400
+13,Chitato Snack Potato Chips Salmon Teriyaki,food,11400
+14,Chitato Snack Potato Chips Beef Barbeque,food,11400
+15,Oreo Wafer Vanilla,food,8600
+16,Oreo Ice Cream Blueberry,food,9100
+17,Oreo Soft Cake,food,2400
+18,Mini Oreo Biskuit Coklat,food,8700
+19,Kraft Keju Quick Melt,food,30300
+20,Sari Roti Tawar Kupas,food,19500
+21,Golda Coffe Drink Dolce Latte,beverage,3000
+22,Golda Coffe Drink Cappuccino,beverage,3000
+23,Nescafe Ice Coffe Latte,beverage,10500
+24,Nescafe Coffe Cream,beverage,4600
+25,Nescafe Coffe Cream French Vanilla,beverage,4600
+26,Good Mood Lemon,beverage,5800
+27,Good Mood Blackcurrant,beverage,5800
+28,Good Mood Stroberi,beverage,5800
+29,Aqua Air Mineral 330ml,beverage,2800
+30,Aqua Galon 19L,beverage,19600
+31,Wateru Premium Bamboo Facial Tissue,living,8900
+32,Nice Facial Tissue,living,22200
+33,Harpic Pembersih Kloset,living,29500
+34,Downy Softener Passion,living,36600
+35,So Klin Detergent Cair Anti Bacterial,living,18500
