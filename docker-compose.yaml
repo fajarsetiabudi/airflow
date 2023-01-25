@@ -39,10 +39,8 @@
 version: '3'
 x-airflow-common:
   &airflow-common
-  image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.4.3-python3.8}
-  build: .
-  networks:
-    - default_network
+  image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:latest}
+  # build: .
   environment:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
@@ -55,7 +53,7 @@ x-airflow-common:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
-    - ./scripts:/opt/airflow/scripts
+
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-0}"
   depends_on:
     postgres:
@@ -64,8 +62,7 @@ x-airflow-common:
 services:
   postgres:
     image: postgres:13
-    networks:
-      - default_network
+
     environment:
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
@@ -113,7 +110,3 @@ services:
 
 volumes:
   postgres-db-volume:
-
-networks:
-  default_network:
-    name: default_network
